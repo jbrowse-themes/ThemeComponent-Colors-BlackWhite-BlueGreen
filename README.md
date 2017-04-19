@@ -11,12 +11,12 @@ A JBrowse 'Theme Component' which provides a pleasant minimalist black, white, a
 Add the following to your `trackList.json`. If you have an existing plugins section, you should add the plugin to that section.
 
 ```json
-"plugins": {
+"plugins": [
 	{
-		"name": "REPO",
-		"location" : "https://cdn.rawgit.com/jbrowse-themes/REPO/HASH"
+		"name": "ThemeComponent-Colors-BlackWhite-BlueGreen",
+		"location" : "https://cdn.rawgit.com/jbrowse-themes/ThemeComponent-Colors-BlackWhite-BlueGreen/b6fa92426325491e124cea92392edeb65eda3c72"
 	}
-}
+]
 ```
 
 # LICENSE
