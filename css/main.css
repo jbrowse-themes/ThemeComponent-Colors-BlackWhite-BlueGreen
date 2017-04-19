@@ -1,0 +1,358 @@
+.tundra .menuBar, .tundra #faceted_tracksel_top{
+	background: black;
+}
+
+div.overview{
+	background: white;
+	border: 0px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+div.locationThumb {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.1);
+}
+
+div#static_track {
+	background: white;
+	border-top: 0px;
+}
+
+.track .global_highlight {
+	background: rgba(0, 0, 0, 0.1);
+	border: none;
+}
+div.locationTrap {
+	border-bottom-color: #ccc;
+}
+
+
+/* Feature Overview */
+.detail .field {
+	background: transparent;
+	text-align: right;
+	border-right: 1px solid black;
+	border-bottom: none;
+	min-width: 6em;
+}
+.detail .field[title], .detail .dgrid-cell[title]{
+	background: black;
+	color: white;
+}
+
+/* Load Track Dialog */
+.fileDialog .resourceList {
+	background: white;
+	border: 1px solid black;
+}
+
+.fileDialog .trackList {
+	background: white;
+	border: 1px solid black;
+}
+
+.fileDialog .remoteURLsControl textarea, .fileDialog .localFilesControl .dragArea {
+	border: 1px solid black
+}
+
+.fileDialog .dijitDialogPaneContent > div.intro {
+	width: 40em;
+	text-align: inherit;
+	position: inherit;
+	left: 0px;
+}
+
+/* MENUS */
+.dijitMenu {
+	background-color: white !important;
+	box-shadow: 0px 6px 16px #aaa;
+	border-radius: 3px;
+	color: black;
+}
+
+.tundra .dijitMenu, .tundra .dijitMenuBar {
+	border: 1px solid #999;
+}
+
+.tundra .dijitMenuSeparatorBottom, .tundra .dijitMenuSeparatorTop {
+	border-top: 1px solid #999 !important;
+}
+.tundra .dijitMenuSeparatorTop {
+	border-bottom: none;
+}
+.tundra .dijitMenuSeparatorBottom, .tundra .dijitMenuSeparatorTop {
+	border-top: 1px solid #999 !important;
+}
+.tundra .dijitMenuSeparatorTop {
+	border-bottom: none;
+}
+
+
+
+/* zoom stuff */
+
+.rubber-highlight {
+	border: 1px solid black;
+	height: 100%;
+	border-color: rgba( 0, 0, 0, 0.3  );
+	background-color: #80ff87;
+	background-color: rgba( 0, 0, 0, 0.3  );
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	cursor: crosshair;
+}
+.rubber-highlight div {
+	color: white;
+	padding: 0;
+	margin-top: 30px;
+	font-size: 160%;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: black 0px 0px 2px;
+}
+
+
+
+
+/* track Menu */
+.jbrowseHierarchicalTrackSelector, .dijitTitlePaneContentInner {
+	color: black;
+	background: white;
+}
+
+.dijitTitlePaneTitle div {
+	background: white;
+	border: none !important;
+	/*border-bottom: 1px solid black !important;*/
+}
+
+.tundra .dijitTitlePaneTitle {
+	border: none;
+	border-left: 4px solid black;
+	background: white;
+	padding: 0.5em;
+}
+
+.tundra .dijitTitlePaneContentInner {
+	padding: 0px;
+}
+.tundra .dijitTitlePaneContentInner label {
+	padding: 0.3em;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+}
+.tundra .dijitTitlePaneContentOuter {
+	padding: 0.0em 0px 0.0em 0.8em;
+}
+.tundra .dijitTitlePaneContentOuter {
+	border: none;
+	border-left: 1px solid gray;
+}
+
+
+/* Overflow */
+div.block.height_overflow .height_overflow_message {
+	color: black;
+    text-shadow: none;
+	font-weight: normal;
+	background: white;
+}
+
+
+/* Tooltip */
+.featureTooltip {
+	background: white !important;
+	border: 1px solid black !important;
+	box-shadow: 0 0 2px #888 !important;
+}
+
+.featureTooltip .tooltipLabel {
+	 color: black !important;
+}
+
+.featureTooltip .tooltipDescription {
+	color: #555 !important;
+}
+
+
+/*Track Selection*/
+#faceted_tracksel .dijitContentPane{
+	background: white;
+}
+.tundra .menuBar, .tundra #faceted_tracksel_top {
+	background: black;
+}
+
+#tracklist_textfilter {
+	border: 1px solid black;
+}
+
+
+/* DNA */
+table.sequence .highlighted {
+    background: #ff0;
+}
+table.sequence .revcom {
+    color: red;
+}
+table.sequence .base, table.sequence > tr, table.translatedSequence > tr, table.translatedSequence  {
+    height: 14px;
+    line-height: 14px;
+}
+
+table.sequence.big .base {
+    border-right: 1px solid #333;
+}
+
+.translatedSequence {
+    position: relative;
+    border-width: 0px;
+    border-collapse: collapse;
+    overflow: visible;
+}
+.translatedSequence table {
+    z-index: 10;
+}
+
+.translatedSequence.frame0 {
+    background-color: #eee;
+}
+
+.translatedSequence.frame1 {
+    background-color: #ddd;
+}
+
+.translatedSequence.frame2 {
+    background-color: #ccc;
+}
+.translatedSequence td.aminoAcid {
+    text-align: center;
+    z-index: 2000;
+
+    color: black;
+    font-family: Courier New,monospace;
+}
+.translatedSequence.big, .translatedSequence.big td.aminoAcid {
+    border-right: 1px solid #777;
+}
+
+.translatedSequence.frame2 td.aminoAcid {
+    border-right-color: #979797;
+}
+.translatedSequence.frame1 td.aminoAcid {
+    border-right-color: #6d6d6d;
+}
+.translatedSequence.frame0 td.aminoAcid {
+    border-right-color: #5f5f5f;
+}
+
+.translatedSequence td.aminoAcid_stop {
+    background-color: rgba(0, 0, 0, 0.73);
+	color: white;
+}
+
+.translatedSequence td.aminoAcid_start {
+    background-color: hsla(108, 100%, 30%, 0.58);
+}
+
+td.base {
+    text-align: center;
+    z-index: 2000;
+}
+.base {
+    color: black;
+    font-family: Courier New,monospace;
+    font-weight: bold;
+    text-shadow: #c3c3c3 0px 0px 4px;
+}
+
+.base_n {
+    background-color: #1b9e77;
+}
+
+.base_a {
+    background-color: #a6cee3;
+}
+.base_c {
+    background-color: #b2df8a;
+}
+.base_t {
+    background-color: #1f78b4;
+}
+.base_g {
+    background-color: #33a02c;
+}
+.base_reference {
+    background-color: #bbb;
+}
+.base_deletion {
+    background-color: #999;
+}
+
+.sequence.nocolor .base {
+    background-color: #ddd;
+}
+
+
+
+/* Faceted Track Sel */
+.tundra .dojoxGridHeader .dojoxGridCell{
+	width: 15%;
+	background: white;
+	color: black !important; /* Normally would avoid important, but tundraGrid.css uses it so we have to as well :( */
+	border-bottom: 2px solid black;
+}
+
+.tundra .dojoxGrid {
+	font-size: 1em;
+}
+
+.tundra .dojoxGridCell {
+	border: 1px solid transparent;
+}
+
+.tundra .dojoxGridRowOdd {
+	background: #eee !important;
+}
+
+.tundra .dojoxGridRowSelected {
+	background: #aaa !important;
+}
+
+.tundra .dojoxGridRowOver .dojoxGridCell{
+	background: #b2df8a !important;
+	color: black;
+}
+
+.tundra .dojoxGrid .dojoxGridCell {
+	padding: 0.6em !important;
+}
+
+/*Track search box*/
+#faceted_tracksel .gridPane .gridControls > * {
+	background: white;
+	padding: 0.2em;
+}
+
+#faceted_tracksel label.textFilterControl input {
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+#faceted_tracksel .gridPane .gridControls button {
+	border: 1px solid black;
+}
+
+#faceted_tracksel div.matching_record_count {
+	padding: 0.4em;
+	border: 1px solid black;
+}
+
+
+/*Feature detail*/
+
+.feature-detail .subfeature-detail {
+	background: rgba(0, 0, 0, 0.03);
+}
